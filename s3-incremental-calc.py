@@ -2,7 +2,7 @@ import warnings
 warnings.filterwarnings("ignore", category=UserWarning, module="numpy")
 import pandas as pd
 
-# Define pricing for S3 tiers by region
+# Define pricing for S3 tiers by region; current pricing set as of 11-22-24
 PRICING = {
     "us-east-1": {
         1: ("Standard", 0.023),
